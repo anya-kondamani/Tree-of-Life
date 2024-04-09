@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&&display=swap");
+:root {
+    --off-white: #faebd7;
+    --beige: #c9a293;
+    --sage-green: #7e8c6f;
+    --olive-green: #6c7d15;
+    --forest-green: #30401f;
+}
+body {
+    font-family: "Playfair Display",sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--off-white);
+}
+.plants {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--beige);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.plant {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plant img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
